@@ -11,7 +11,7 @@ public class ControllerOne {
 	@GetMapping("/")
 	public String welcome() {
 		
-		return "HI Welcome ot git app";
+		return "HI Welcome ot git app to integrate with ci cid and deploy.";
 	}
 
 }
