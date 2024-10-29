@@ -1,0 +1,16 @@
+# Conversion to YAML from Properties formar report
+# Warnings:
+# - The yaml file had comments which are lost in the refactoring!
+spring:
+  application:
+    name: DialerMSOne
+  datasource:
+    url: jdbc:mysql://localhost:3306/vgt_cc19
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: admin
+    password: BroadGate
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
